@@ -1,0 +1,7 @@
+name: Main CI
+
+on: [push]
+
+jobs:
+  platform-ci:
+    uses: GitFabien/platform-demo-lab1/.github/workflows/ci-mehdihamzi.yml@main
